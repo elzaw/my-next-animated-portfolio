@@ -1,0 +1,17 @@
+"use client";
+import { motion } from "framer-motion";
+
+const contactPage = () => {
+  return (
+    <motion.div
+      className="h-full"
+      initial={{ y: "-200vh" }}
+      animate={{ y: "0%" }}
+      transition={{ duration: 1 }}
+    >
+      contactPage
+    </motion.div>
+  );
+};
+
+export default contactPage;
